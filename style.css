@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0D0D2B;   
+}
+
+.header1{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header1 a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.header1 a img{
+    width: 25px;
+    height: 25px;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+}
+.header2 li{
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+}
+.header2 li a{
+    color: white;
+    text-decoration: none;
+}
+.header2 li a:hover{
+    color: #bbbbbb;
+}
+
+.header3{
+    display: flex;
+    align-items: center;
+}
+
+.header3 li{
+    list-style-type: none;
+    margin: 30px;
+}
+.header3 li a:nth-child(1):hover{
+    color: #bbbbbb;
+}
+
+.header3 li:nth-child(1) a{
+    color: white;
+    text-decoration: none;
+}
+
+.header3 li a button{
+    padding: 10px 25px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header3 li a button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+/* Section 1 Styling */
+.firstsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D2B;
+    color: white;  
+}
+
+.firstsection .right{
+    margin: 0px 100px 0px 20px;
+}
+.firstsection .right .rightinside{
+    position: relative;
+}
+.firstsection .right p:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0px 0px 5px #000, 0px opx 15px #858585;
+    top: 6px;
+    left: 6px;
+}
+.firstsection .right p:nth-child(2){
+    display: inline-block;
+    width: 90%;
+    padding: 10px 15px;
+    border: 2px solid #252540;
+    outline: none;
+    background-color: #252540;
+    color: #FFFFFF;
+    border-radius: 25px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.firstsection .right p:nth-child(3){
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.firstsection .right p:nth-child(4){
+    font-size: 13px;
+    line-height: 15px;
+    margin: 15px 0px;
+}
+
+.firstsection .left img{
+    width: 400px;
+    margin-right: 50px;
+}
+.firstsection .right .rightinside button img{
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.firstsection .right .rightinside button{
+    padding: 10px 15px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 25px;
+    border-color: #3671E9;
+    cursor: pointer;
+}
+
+.firstsection .right .rightinside button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+/* Section 2 Styling */
+.secondsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D2B;
+    color: white;
+}
+
+.secondsection div img{
+    width: 40px;
+    height: 40px;
+}
+
+.firstin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 150px 50px 0px;
+}
+.firstin div p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.firstin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 10px;
+}
+
+
+.secondin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 150px 50px 0px;
+}
+.secondin div p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.secondin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 10px;
+}
+
+.thirdin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 80px 50px 0px;
+}
+.thirdin div p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.thirdin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 10px;
+}
+
+/* Section 3 Styling */
+.thirdsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D2B;
+    color: white;
+}
+
+.thirdsection .left img{
+    width: 400px;
+    margin: 0px 80px 80px 80px;
+}
+
+.thirdsection .right{
+    margin: 0px 80px 80px 80px;
+}
+
+.thirdsection .right p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+
+.thirdsection .right p:nth-child(2){
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0px 80px 20px 0px;
+}
+
+.thirdsection .right button{
+    padding: 10px 15px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.thirdsection .right button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+
+/* Section 4 styling */
+.fourthsection{
+    background-color: #0D0D2B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthsection p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.fourthsection p:nth-child(2){
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.fourthsection p:nth-child(3){
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0px 0px 30px;
+}
+
+/* Section 5 Styling */
+.fifthsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f2f2;
+}
+
+.fifthsection .fifth-up{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.fifthsection .fifth-up .div1 form input{
+    border: none;
+    border-bottom: 2px solid #d6d5d5;
+    margin: 0px 50px;
+    padding: 5px 80px 5px 0px;
+}
+.fifthsection .fifth-up .div1 form input:focus {
+    outline: none !important;
+}
+
+.fifthsection .fifth-up .div2 form select{
+    border: none;
+    border-bottom: 2px solid #d6d5d5;
+    margin-right: 50px;
+    padding: 5px 80px 5px 0px;
+}
+
+.fifthsection .fifth-up .div2 form select:focus {
+    outline: none !important;
+}
+
+.fifthsection .fifth-up .div3 button{
+    padding: 5px 15px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid  #3671E9;
+}
+
+.fifthsection .fifth-up .div3 button:hover{
+    background-color: transparent;
+    color: #0D0D2B;
+    border: 2px solid #3671E9;
+}
+
+
+.fifth-down .inside-div p:nth-child(1){
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #3671E9;
+    margin: 10px 200px 10px 90px;
+
+}
+
+.fifth-down .inside-div p:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+    color:#0D0D2B;
+    margin: 10px 200px 10px 90px;
+}
+
+.fifth-down .inside-div p:nth-child(2) span{
+    color: #3671E9;
+}
+.fifth-down .inside-div p:nth-child(3){
+    color: #D0D0D0;
+    font-size: 12px;
+    margin: 10px 200px 50px 90px;
+}
+.container{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+
+/* Section 6 Styling */
+.sixthsection{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #FEFDFE;
+}
+
+.sixthsection p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 250px;
+    text-align: center;
+}
+
+/* Section 7 Styling */
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.section-container1{
+    background-color: #2B076E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-container .section-container1 img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+.section-container .section-container1 .btc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.section-container .section-container1 .btc span{
+    font-size: 10px;
+    vertical-align:super;
+    color: #D0D0D0;
+    font-weight: normal;
+}
+.section-container .section-container1 .btc2{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.section-container .section-container1 button{
+    padding: 0px 10px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    border: 0px solid #3671E9;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.section-container .section-container1 button img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.section-container .section-container1 button:hover{
+    background-color: transparent;
+    border: 1px solid #3671E9;
+}
+
+.section-container2{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-container .section-container2 img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+.section-container .section-container2 .eth{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-container .section-container2 .eth span{
+    font-size: 10px;
+    vertical-align:super;
+    color: #D0D0D0;
+    font-weight: normal;
+}
+.section-container .section-container2 .eth2{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.section-container3{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-container .section-container3 img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+.section-container .section-container3 .ltc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-container .section-container3 .ltc span{
+    font-size: 10px;
+    vertical-align:super;
+    color: #D0D0D0;
+    font-weight: normal;
+}
+.section-container .section-container3 .ltc2{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/* Section 8 Styling */
+.eightsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2B076E;
+    height: 100px;
+}
+
+.eightsection p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 300px;
+    text-align: center;
+}
+
+/* Section 9 Styling */
+.ninthsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2B076E;
+}
+
+.ninthsection .left{
+    margin: 80px
+}
+
+.ninthsection .left p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.ninthsection .left p:nth-child(2){
+    font-size: 12px;
+    margin: 0px 60px 10px 0px;
+}
+
+.ninthsection .left button{
+    padding: 10px 20px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0px;
+    border-color: #3671E9;
+}
+
+.ninthsection .left button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+.ninthsection .right img{
+    width: 400px;
+    margin-right: 150px;
+}
+
+/* Section 10 Styling */
+.tenthsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2B076E;
+}
+
+.tenthsection .left img{
+    width: 500px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.tenthsection .right{
+    margin: 50px 100px;
+}
+.tenthsection .right p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.tenthsection .right p:nth-child(2){
+    font-size: 12px;
+    margin: 0px 90px 10px 0px;
+}
+
+.tenthsection button{
+    padding: 10px 20px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0px;
+    border-color: #3671E9;
+}
+
+.tenthsection button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+/* Section 11 Styling */
+.eleventhsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2B076E;
+}
+
+.eleventhsection .left{
+    margin: 70px
+}
+
+.eleventhsection .left p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 50px 20px 0px;
+}
+
+.eleventhsection .left p:nth-child(2){
+    font-size: 12px;
+    margin: 0px 60px 10px 0px;
+}
+
+.eleventhsection .left button{
+    padding: 10px 20px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0px;
+    border-color: #3671E9;
+}
+
+.eleventhsection .left button:hover{
+    background-color: transparent;
+    border: 2px solid #3671E9;
+}
+
+.eleventhsection .right img{
+    width: 500px;
+    margin-right: 100px;
+}
+
+/* Section 12 Styling */
+.twelvethsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(360deg, #0D0D2B, #2B076E);
+    height: 300px;
+}
+
+.twelvethsection .twelvethsection-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #3671E9;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(2){
+    font-size: 12px;
+    margin: 15px 50px 10px 0px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form{
+    margin: 0px, 50px 10px 0px;
+    padding-right: 100px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input{
+    padding: 10px 40px 10px 0px;
+    border:none;
+    fill: none;
+    color: #FFFFFF;
+    background: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 12px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    width: 120%;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input:focus {
+    outline: none !important;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.twelvethsection .twelvethsection-container .divbox3 button{
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 0px;
+    border: none;
+}
+
+.twelvethsection .twelvethsection-container .divbox3 button:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+/* last section styling */
+.last-section{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0D0D2B;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.last-section .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 230px;
+    margin-right: 100px;
+}
+.last-section .logo a img{
+    width: 25px; 
+    height: 20px;
+}
+.last-section .logo span{
+    padding: 0px 10px;
+}
+
+.last-section .link{
+    margin: 0px 50px;
+}
+.last-section .link p{
+    margin-bottom: 15px;
+}
+.last-section .link a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.last-section .link li{
+    color: white;
+    list-style-type: none;
+    padding-right: 100px;
+}
+.last-section .link li a:hover{
+    color: #9c9c9c;
+}
+.last-section .resources{
+    margin: 0px 0px 50px 0px;
+}
+.last-section .resources a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.last-section .resources li{
+color: white;
+list-style-type: none;
+}
+.last-section .resources li a:hover{
+    color: #9c9c9c;
+}
+.last-section .resources p{
+    margin-bottom: 15px;
+}
+
+.last-section .payment{
+    margin: 0px 50px 20px 150px;
+}
+.last-section .payment p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.last-section .payment img{
+    width: 65px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+/* Footer Styling */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFFFFF;
+    background-color: #0D0D2B;
+}
+
+footer .reserved{
+    font-size: 12px;
+    margin-right: 280px;
+    margin-bottom: 50px;
+}
+
+footer .socials{
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+footer .socials a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+footer .socials a img{
+    width: 20px;
+    height: 20px;
+}
+footer .socials a img:hover{
+transform: scale(1.3);
+transition: .3s;
+}
