@@ -15,7 +15,7 @@ header{
 }
 
 .header1{
-    margin-right: 100px;
+    margin-right: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@ header{
 }
 
 .firstsection .right{
-    margin: 0px 100px 0px 20px;
+    margin: 0px 250px 0px 20px;
 }
 .firstsection .right .rightinside{
     position: relative;
@@ -177,7 +177,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 150px 50px 0px;
+    margin: 50px 250px 50px 0px;
 }
 .firstin div p:nth-child(1){
     font-size: 25px;
@@ -195,7 +195,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 150px 50px 0px;
+    margin: 50px 250px 50px 0px;
 }
 .secondin div p:nth-child(1){
     font-size: 25px;
@@ -211,7 +211,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 80px 50px 0px;
+    margin: 50px 20px 50px 0px;
 }
 .thirdin div p:nth-child(1){
     font-size: 25px;
@@ -234,11 +234,11 @@ header{
 
 .thirdsection .left img{
     width: 400px;
-    margin: 0px 80px 80px 80px;
+    margin: 0px 150px 80px 20px;
 }
 
 .thirdsection .right{
-    margin: 0px 80px 80px 80px;
+    margin: 0px 20px 80px 100px;
 }
 
 .thirdsection .right p:nth-child(1){
@@ -556,7 +556,7 @@ header{
 
 .ninthsection .left p:nth-child(2){
     font-size: 12px;
-    margin: 0px 60px 10px 0px;
+    margin: 0px 150px 10px 0px;
 }
 
 .ninthsection .left button{
@@ -576,7 +576,7 @@ header{
 
 .ninthsection .right img{
     width: 400px;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 /* Section 10 Styling */
@@ -592,9 +592,10 @@ header{
     width: 500px;
     margin-bottom: 80px;
     margin-top: 50px;
+    margin-right: 50px;
 }
 .tenthsection .right{
-    margin: 50px 100px;
+    margin: 50px 150px;
 }
 .tenthsection .right p:nth-child(1){
     font-size: 20px;
@@ -604,7 +605,7 @@ header{
 
 .tenthsection .right p:nth-child(2){
     font-size: 12px;
-    margin: 0px 90px 10px 0px;
+    margin: 0px 50px 10px 0px;
 }
 
 .tenthsection button{
@@ -638,7 +639,7 @@ header{
 .eleventhsection .left p:nth-child(1){
     font-size: 20px;
     font-weight: bold;
-    margin: 20px 50px 20px 0px;
+    margin: 20px 100px 20px 0px;
 }
 
 .eleventhsection .left p:nth-child(2){
@@ -755,7 +756,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-bottom: 230px;
     margin-right: 100px;
 }
@@ -768,7 +769,7 @@ header{
 }
 
 .last-section .link{
-    margin: 0px 50px;
+    margin: 0px 80px;
 }
 .last-section .link p{
     margin-bottom: 15px;
@@ -788,7 +789,7 @@ header{
     color: #9c9c9c;
 }
 .last-section .resources{
-    margin: 0px 0px 50px 0px;
+    margin: 0px 60px 30px 0px;
 }
 .last-section .resources a{
     color: white;
@@ -807,7 +808,7 @@ list-style-type: none;
 }
 
 .last-section .payment{
-    margin: 0px 50px 20px 150px;
+    margin: 0px 20px 20px 100px;
 }
 .last-section .payment p{
     font-size: 20px;
@@ -831,12 +832,12 @@ footer{
 
 footer .reserved{
     font-size: 12px;
-    margin-right: 280px;
+    margin-right: 300px;
     margin-bottom: 50px;
 }
 
 footer .socials{
-    margin-left: 250px;
+    margin-left: 300px;
     margin-bottom: 50px;
 }
 
