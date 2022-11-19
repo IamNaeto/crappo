@@ -8,17 +8,15 @@
 /* Header Styling */
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: #0D0D2B;   
 }
 
 .header1{
-    margin-right: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .header1 a{
     color: white;
@@ -28,52 +26,38 @@ header{
 .header1 a img{
     width: 25px;
     height: 25px;
+    margin-left: 40px;
 }
-
 .header2{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
+
 .header2 li{
     list-style-type: none;
-    margin: 20px;
-    color: white;
+    margin: 30px 15px;
+  
 }
+.header2 li a:nth-child(1):hover{
+    color: #bbbbbb;
+}
+
 .header2 li a{
     color: white;
     text-decoration: none;
 }
-.header2 li a:hover{
-    color: #bbbbbb;
-}
 
-.header3{
-    display: flex;
-    align-items: center;
-}
-
-.header3 li{
-    list-style-type: none;
-    margin: 30px;
-}
-.header3 li a:nth-child(1):hover{
-    color: #bbbbbb;
-}
-
-.header3 li:nth-child(1) a{
-    color: white;
-    text-decoration: none;
-}
-
-.header3 li a button{
+.header2 li a button{
     padding: 15px 25px;
     background-color: #3671E9;
     color: white;
     border-radius: 30px;
     cursor: pointer;
+    margin-right: 60px;
 }
 
-.header3 li a button:hover{
+.header2 li a button:hover{
     background-color: transparent;
     border: 2px solid #3671E9;
 }
@@ -110,7 +94,7 @@ header{
 }
 .firstsection .right p:nth-child(2){
     display: inline-block;
-    width: 73%;
+    width: 60%;
     padding: 10px 15px;
     border: 2px solid #252540;
     outline: none;
@@ -234,7 +218,7 @@ header{
 
 .thirdsection .left img{
     width: 400px;
-    margin: 0px 30px 80px 20px;
+    margin: 0px 30px 80px 70px;
 }
 
 .thirdsection .right{
@@ -278,8 +262,12 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 350px ;
+    position: relative;
 }
-
+.fourthsection .fourthsection-box{
+    margin-bottom: 150px;
+}
 .fourthsection p:nth-child(1){
     font-size: 35px;
     font-weight: bold;
@@ -302,7 +290,13 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f3f2f2;
+}
+.fifthsection .container{
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 30px 0px;
+    box-shadow: 2px 2px 1px 1px #F7F3FB;
 }
 
 .fifthsection .fifth-up{
@@ -375,18 +369,15 @@ header{
     font-size: 16px;
     margin: 10px 200px 50px 90px;
 }
-.container{
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    margin: 30px 0px;
-}
 
 /* Section 6 Styling */
 .sixthsection{
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: #FEFDFE;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 200px 0px 50px 0px;
 }
 
 .sixthsection p{
@@ -394,6 +385,7 @@ header{
     font-weight: bold;
     margin: 20px 250px;
     text-align: center;
+    color: #000;
 }
 
 /* Section 7 Styling */
@@ -874,4 +866,1342 @@ footer .socials a img{
 footer .socials a img:hover{
 transform: scale(1.3);
 transition: .3s;
+}
+
+@media screen and (max-width: 1369px) {
+    .firstsection .right p:nth-child(2){
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1255px) {
+    .firstsection .right p:nth-child(2){
+        width: 120%;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .firstsection .right p:nth-child(2){
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .header1{
+        margin-right: 50px
+    }
+
+    
+    .firstsection .right p:nth-child(2){
+        width: 70%;
+    }
+    
+.firstsection .right p:nth-child(3){
+    font-size: 30px;
+}
+
+.firstsection .right p:nth-child(4){
+    font-size: 16px;
+}
+
+.firstsection .left img{
+    width: 300px;
+    margin-right: 15px;
+}
+.firstsection .right{
+    margin: 100px 50px 0px 50px;
+}
+.firstin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 50px 50px 20px;
+}
+.firstin div p:nth-child(1){
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.firstin div p:nth-child(2){
+    font-size: 16px;
+    margin: 5px 10px;
+}
+
+.secondin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 100px 50px 0px;
+}
+.secondin div p:nth-child(1){
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.secondin div p:nth-child(2){
+    font-size: 16px;
+    margin: 5px 10px;
+}
+/* Section 2 Styling */
+.firstin{
+    margin: 50px 100px 50px 0px;
+}
+
+.secondin{
+    margin: 50px 100px 50px 0px;
+}
+
+/* Section 3 Styling */
+.thirdsection .left img{
+    width: 300px;
+    margin: 0px 30px 80px 40px;
+}
+
+.thirdsection .right{
+    margin: 0px 20px 80px 40px;
+    width: 50%;
+}
+
+.thirdsection .right p:nth-child(1){
+    font-size: 30px;
+}
+
+.thirdsection .right p:nth-child(2){
+    font-size: 14px;
+    margin: 0px 40px 20px 0px;
+}
+
+.thirdsection .right button{
+    font-size: 16px;
+}
+/* Section 4 styling */
+.fourthsection p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fourthsection p:nth-child(2){
+    font-size: 14px;
+    text-align: center;
+}
+.fourthsection p:nth-child(3){
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Section 5 Styling */
+.fifthsection .fifth-up{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.fifthsection .fifth-up .div1 form input{
+    padding: 5px 50px 5px 0px;
+    font-size: 14px;
+}
+
+.fifthsection .fifth-up .div2 form select{
+    padding: 5px 50px 5px 0px;
+    font-size: 14px;
+}
+.fifthsection .fifth-up .div3 button{
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.fifth-down .inside-div p:nth-child(1){
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 10px 50px 10px 90px;
+
+}
+
+.fifth-down .inside-div p:nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+    color:#0D0D2B;
+    margin: 10px 50px 10px 90px;
+}
+.fifth-down .inside-div p:nth-child(3){
+    color: #D0D0D0;
+    font-size: 12px;
+    margin: 10px 50px 50px 90px;
+}
+/* Section 6 Styling */
+.sixthsection p{
+    font-size: 24px;
+    margin: 20px 180px;
+}
+/* Section 7 Styling */
+.section-container{
+    margin: 50px 10px;
+}
+
+.section-container1{
+    padding: 15px;
+    width: 420px;
+    margin: 0px 10px;
+}
+.section-container .section-container1 img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.section-container .section-container1 .btc{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.section-container .section-container1 .btc span{
+    font-size: 8px;
+}
+.section-container .section-container1 .btc2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.section-container .section-container1 button{
+    padding: 10px 10px;
+    background-color: #3671E9;
+    font-size: 14px;
+}
+
+.section-container .section-container1 button img{
+    width: 20px;
+    height: 20px;
+}
+
+.section-container2{
+    padding: 15px;
+    width: 420px;
+    margin: 0px 10px;
+}
+
+.section-container .section-container2 img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.section-container .section-container2 .eth{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.section-container .section-container2 .eth span{
+    font-size: 8px;
+}
+.section-container .section-container2 .eth2{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.section-container3{
+    padding: 15px;
+    width: 420px;
+    margin: 0px 10px;
+}
+
+.section-container .section-container3 img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.section-container .section-container3 .ltc{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.section-container .section-container3 .ltc span{
+    font-size: 8px;
+}
+.section-container .section-container3 .ltc2{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+/* Section 8 Styling */
+.eightsection p{
+    font-size: 24px;
+    margin: 300px 50px;
+    width: 400px;
+}
+
+/* Section 9 Styling */
+.ninthsection .left{
+    margin: 20px;
+}
+
+.ninthsection .left p:nth-child(1){
+    font-size: 24px;
+}
+
+.ninthsection .left p:nth-child(2){
+    font-size: 14px;
+    width: 400px;
+    margin: 0px 50px 10px 0px;
+}
+
+.ninthsection .left button{
+    padding: 15px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+.ninthsection .right img{
+    width: 300px;
+    margin-right: 100px;
+    margin-right: 50px;
+}
+
+/* Section 10 Styling */
+.tenthsection .left img{
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.tenthsection .right{
+    margin: 50px 100px;
+}
+.tenthsection .right p:nth-child(1){
+    font-size: 24px;
+}
+
+.tenthsection .right p:nth-child(2){
+    font-size: 14px;
+    margin: 0px 50px 10px 0px;
+}
+
+.tenthsection button{
+    padding: 15px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+
+/* Section 11 Styling */
+.eleventhsection .left{
+    margin: 70px 50px 70px 40px;
+}
+
+.eleventhsection .left p:nth-child(1){
+    font-size: 24px;
+    margin: 20px 50px 20px 0px;
+}
+
+.eleventhsection .left p:nth-child(2){
+    font-size: 14px;
+    margin: 0px 30px 10px 0px;
+}
+
+.eleventhsection .left button{
+    padding: 15px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+
+.eleventhsection .right img{
+    width: 400px;
+    margin-right: 50px;
+}
+
+/* Section 12 Styling */
+.twelvethsection{
+    height: 300px;
+}
+
+.twelvethsection .twelvethsection-container{
+    padding: 40px;
+}
+
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(1){
+    font-size: 24px;
+}
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(2){
+    font-size: 14px;
+    margin: 15px 20px 10px 0px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form{
+    margin: 0px, 10px 10px 0px;
+    padding-right: 30px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input{
+    padding: 10px 30px 10px 0px;
+    font-size: 14px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input::placeholder {
+    font-size: 14px;
+}
+
+.twelvethsection .twelvethsection-container .divbox3 button{
+    padding: 15px 15px;
+    margin: 15px 10px;
+    font-size: 14px;
+}
+
+/* last section styling */
+.last-section{
+    height: 300px;
+    padding-top: 50px;
+}
+
+.last-section .logo{
+    margin-left: 20px;
+    margin-bottom: 230px;
+    margin-right: 30px;
+}
+.last-section .logo a img{
+    width: 20px; 
+    height: 20px;
+}
+
+.last-section .link{
+    margin: 0px 30px;
+}
+
+.last-section .link li{
+    color: white;
+    list-style-type: none;
+    padding-right: 100px;
+}
+.last-section .resources{
+    margin: 0px 30px 50px 0px;
+}
+.last-section .payment{
+    margin: 0px 20px 20px 100px;
+}
+.last-section .payment p{
+    font-size: 16px;
+}
+.last-section .payment img{
+    width: 50px;
+    height: 30px;
+}
+
+/* Footer Styling */
+footer{
+    height: 200px;
+}
+
+footer .reserved{
+    font-size: 10px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+footer .socials{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+footer .socials a{
+    padding: 0px 10px;
+}
+
+footer .socials a img{
+    width: 20px;
+    height: 20px;
+}
+footer .socials a img:hover{
+transform: scale(1.3);
+transition: .3s;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .firstsection .right p:nth-child(2){
+        width: 120%;
+    }
+
+    .header2 li a{
+        font-size: 14px;
+    }
+    
+    .header2 li a button{
+        padding: 10px 18px;
+        font-size: 14px;
+        background-color: #3671E9;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 830px) {
+    .firstsection .right p:nth-child(2){
+        width: 120%;
+    }
+
+    .header2 li a{
+        font-size: 12px;
+    }
+    
+    .header2 li a button{
+        padding: 10px 18px;
+        font-size: 12px;
+        background-color: #3671E9;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    /* Section 9 Styling */
+.ninthsection .left p:nth-child(2){
+    width: 200px;
+    margin: 0px 80px 10px 0px;
+}
+.ninthsection .right img{
+    width: 250px;
+}
+
+/* Section 10 Styling */
+.tenthsection .left img{
+    width: 300px;
+}
+.tenthsection .right{
+    margin: 50px 50px;
+}
+
+/* Section 11 Styling */
+.eleventhsection .left{
+    margin: 70px 30px 70px 40px;
+}
+.eleventhsection .right img{
+    width: 300px;
+}
+
+/* Section 12 Styling */
+.twelvethsection .twelvethsection-container{
+    padding: 40px 20px;
+}
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(2){
+    margin: 15px 10px 10px 0px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form{
+    margin: 0px, 10px 10px 0px;
+    padding-right: 10px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input{
+    padding: 10px 20px 10px 0px;
+    margin-left: 10px;
+    width: 80%;
+}
+}
+@media screen and (max-width: 702px) {
+    .header2{
+        display: none;
+    }
+    .header1 a img{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .header1 .crappo{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .firstsection .right p:nth-child(1){
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .firstsection .right p:nth-child(2){
+        width: 80%;
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+.firstsection .right p:nth-child(3){
+    font-size: 24px;
+    width: 300px;
+}
+
+.firstsection .right p:nth-child(4){
+    font-size: 12px;
+    width: 300px;
+}
+.firstsection .right .rightinside button{
+    padding: 8px 8px;
+    font-size: 12px;
+}
+
+.firstsection .left img{
+    width: 200px;
+}
+.firstsection .right{
+    margin: 100px 70px 0px 10px;
+}
+/* Section 2 Styling */
+.firstin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 50px 50px 20px;
+}
+.firstin div p:nth-child(1){
+    font-size: 24px;
+    margin: 0px 10px;
+}
+
+.firstin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
+.secondin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 100px 50px 0px;
+}
+.secondin div p:nth-child(1){
+    font-size: 24px;
+    margin: 0px 10px;
+}
+.secondin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 5px;
+}
+.thirdin div p:nth-child(1){
+    font-size: 24px;
+    margin: 0px 10px;
+}
+.thirdin div p:nth-child(2){
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
+/* Section 3 Styling */
+.thirdsection .left img{
+    width: 200px;
+}
+
+.thirdsection .right{
+    width: 50%;
+}
+
+.thirdsection .right p:nth-child(1){
+    font-size: 24px;
+}
+
+.thirdsection .right p:nth-child(2){
+    font-size: 12px;
+}
+
+.thirdsection .right button{
+    font-size: 12px;
+}
+/* Section 4 styling */
+.fourthsection p:nth-child(1){
+    font-size: 24px;
+}
+
+.fourthsection p:nth-child(2){
+    font-size: 12px;
+}
+.fourthsection p:nth-child(3){
+    font-size: 10px;
+}
+
+/* Section 5 Styling */
+.fifthsection .fifth-up{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.fifthsection .fifth-up .div1 form input{
+    padding: 5px 5px 5px 0px;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.fifthsection .fifth-up .div2 form select{
+    padding: 5px 5px 5px 0px;
+    font-size: 12px;
+}
+.fifthsection .fifth-up .div3 button{
+    padding: 8px 8px;
+    font-size: 12px;
+}
+
+.fifth-down .inside-div p:nth-child(1){
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 10px 30px 10px 30px;
+
+}
+
+.fifth-down .inside-div p:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color:#0D0D2B;
+    margin: 10px 10px 10px 30px;
+}
+.fifth-down .inside-div p:nth-child(3){
+    color: #D0D0D0;
+    font-size: 10px;
+    margin: 10px 10px 50px 30px;
+}
+/* Section 6 Styling */
+.sixthsection p{
+    font-size: 18px;
+    margin: 20px 50px;
+}
+/* Section 7 Styling */
+.section-container{
+    margin: 50px 10px;
+}
+
+.section-container1{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
+.section-container .section-container1 img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.section-container .section-container1 .btc{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.section-container .section-container1 .btc span{
+    font-size: 5px;
+}
+.section-container .section-container1 .btc2{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.section-container .section-container1 button{
+    padding: 5px 5px;
+    background-color: #3671E9;
+    font-size: 5px;
+}
+
+.section-container .section-container1 button img{
+    width: 10px;
+    height: 10px;
+}
+
+.section-container2{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
+
+.section-container .section-container2 img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.section-container .section-container2 .eth{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.section-container .section-container2 .eth span{
+    font-size: 5px;
+}
+.section-container .section-container2 .eth2{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.section-container3{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
+
+.section-container .section-container3 img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.section-container .section-container3 .ltc{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.section-container .section-container3 .ltc span{
+    font-size: 5px;
+}
+.section-container .section-container3 .ltc2{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Section 8 Styling */
+.eightsection p{
+    font-size: 18px;
+    margin: 300px 50px;
+    width: 400px;
+}
+
+/* Section 9 Styling */
+.ninthsection .left{
+    margin: 20px;
+}
+
+.ninthsection .left p:nth-child(1){
+    font-size: 20px;
+}
+
+.ninthsection .left p:nth-child(2){
+    font-size: 12px;
+    width: 200px;
+    margin: 0px 50px 10px 0px;
+}
+
+.ninthsection .left button{
+    padding: 15px 15px;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+.ninthsection .right img{
+    width: 200px;
+    margin-right: 100px;
+    margin-right: 50px;
+}
+
+/* Section 10 Styling */
+.tenthsection .left img{
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.tenthsection .right{
+    margin: 50px 50px;
+}
+.tenthsection .right p:nth-child(1){
+    font-size: 18px;
+}
+
+.tenthsection .right p:nth-child(2){
+    font-size: 12px;
+    margin: 0px 50px 10px 0px;
+}
+
+.tenthsection button{
+    padding: 10px 10px;
+    margin: 15px 0px;
+    font-size: 12px;
+}
+
+/* Section 11 Styling */
+.eleventhsection .left{
+    margin: 70px 30px 70px 40px;
+}
+
+.eleventhsection .left p:nth-child(1){
+    font-size: 18px;
+    margin: 20px 50px 20px 0px;
+}
+
+.eleventhsection .left p:nth-child(2){
+    font-size: 14px;
+    margin: 0px 30px 10px 0px;
+}
+
+.eleventhsection .left button{
+    padding: 15px 15px;
+    margin: 15px 0px;
+    font-size: 12px;
+}
+
+.eleventhsection .right img{
+    width: 200px;
+    margin-right: 50px;
+}
+
+/* Section 12 Styling */
+.twelvethsection{
+    height: 300px;
+}
+
+.twelvethsection .twelvethsection-container{
+    padding: 10px;
+}
+
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(1){
+    font-size: 16px;
+}
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(2){
+    font-size: 10px;
+    margin: 15px 10px 10px 0px;
+    width: 100px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form{
+    margin: 0px, 10px 10px 0px;
+    padding-right: 0px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input{
+    padding: 10px 0px;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input::placeholder {
+    font-size: 10px;
+}
+
+.twelvethsection .twelvethsection-container .divbox3 button{
+    padding: 10px 10px;
+    margin: 15px 0px;
+    font-size: 10px;
+}
+
+/* last section styling */
+.last-section{
+    height: 300px;
+    padding-top: 50px;
+}
+
+.last-section .logo{
+    margin-left: 30px;
+    margin-bottom: 230px;
+    margin-right: 10px;
+}
+.last-section .logo a img{
+    width: 20px; 
+    height: 20px;
+}
+
+.last-section .link{
+    margin: 0px 10px;
+}
+
+.last-section .link li{
+    color: white;
+    list-style-type: none;
+    padding-right: 50px;
+    font-size: 10px;
+}
+.last-section .resources{
+    margin: 0px 10px 50px 0px;
+}
+.last-section .payment{
+    margin: 0px 80px 20px 10px;
+}
+.last-section .payment p{
+    font-size: 10px;
+}
+.last-section .payment img{
+    width: 40px;
+    height: 20px;
+}
+
+/* Footer Styling */
+footer{
+    height: 200px;
+}
+
+footer .reserved{
+    font-size: 10px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+footer .socials{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+footer .socials a{
+    padding: 0px 10px;
+}
+
+footer .socials a img{
+    width: 20px;
+    height: 20px;
+}
+footer .socials a img:hover{
+transform: scale(1.3);
+transition: .3s;
+}
+}
+
+@media screen and (max-width: 594px) {
+    .firstsection{
+     flex-direction: column;
+    }
+    
+    .firstsection .right{
+        margin: 50px 0px 0px 10px;
+    }
+    .firstsection .left img{
+        margin-right: 40px;
+        width: 250px;
+    }
+    .secondsection{
+        flex-direction: column;
+    }
+    .firstin{
+        margin: 50px 50px;
+    }
+    
+    .secondin{
+        margin: 50px 50px;
+    }
+    .thirdin{
+        margin: 50px 50px;
+    }
+    .thirdsection{
+        flex-direction: column;
+    }
+    .thirdsection .left img{
+        width: 300px;
+        margin: 30px 50px;
+    }
+    
+    .thirdsection .right{
+        margin: 50px 0px;
+        width: 70%;
+    }
+    
+    .thirdsection .right p:nth-child(1){
+        width: 250px;
+    }
+    
+    .thirdsection .right p:nth-child(2){
+        font-size: 12px;
+        width: 250px;
+    }
+    /* Section 4 styling */
+.fourthsection p:nth-child(1){
+    font-size: 24px;
+    width: 300px;
+}
+
+.fourthsection p:nth-child(2){
+    font-size: 14px;
+    width: 300px;
+}
+.fourthsection p:nth-child(3){
+    font-size: 8px;
+    width: 300px;
+}
+
+/* Section 5 Styling */
+.fifthsection .fifth-up{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.fifthsection .fifth-up .div1 form input{
+    padding: 5px  0px;
+    font-size: 10px;
+}
+
+.fifthsection .fifth-up .div2 form select{
+    padding: 5px 0px;
+    font-size: 10px;
+}
+.fifthsection .fifth-up .div3 button{
+    padding: 8px 8px;
+    font-size: 10px;
+}
+
+.fifth-down .inside-div p:nth-child(1){
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 20px;
+
+}
+
+.fifth-down .inside-div p:nth-child(2){
+    font-size: 12px;
+    margin: 10px 20px;
+}
+.fifth-down .inside-div p:nth-child(3){
+    font-size: 8px;
+    margin: 10px 20px;
+}
+/* Section 6 Styling */
+.sixthsection p{
+    font-size: 18px;
+    margin: 20px 30px;
+}
+.sixthsection{
+    margin-top: 100px;
+}
+/* Section Seven */
+.section-container{
+    flex-direction: column;
+}
+/* Section 7 Styling */
+.section-container{
+    margin: 50px 10px;
+}
+
+.section-container1{
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 0px 10px;
+}
+.section-container .section-container1 img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.section-container .section-container1 .btc{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.section-container .section-container1 .btc span{
+    font-size: 10px;
+}
+.section-container .section-container1 .btc2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.section-container .section-container1 button{
+    padding: 10px 10px;
+    background-color: #3671E9;
+    font-size: 12px;
+}
+
+.section-container .section-container1 button img{
+    width: 15px;
+    height: 15px;
+}
+
+.section-container2{
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 30px 10px;
+}
+
+.section-container .section-container2 img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.section-container .section-container2 .eth{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.section-container .section-container2 .eth span{
+    font-size: 10px;
+}
+.section-container .section-container2 .eth2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.section-container3{
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 0px 10px;
+}
+
+.section-container .section-container3 img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.section-container .section-container3 .ltc{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.section-container .section-container3 .ltc span{
+    font-size: 10px;
+}
+.section-container .section-container3 .ltc2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/* Section 8 Styling */
+.eightsection p{
+    font-size: 16px;
+    margin: 300px 50px;
+    width: 400px;
+}
+
+/* Section 9 Styling */
+.ninthsection{
+    flex-direction: column;
+}
+.ninthsection .right img{
+    width: 250px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Section 10 Styling */
+.tenthsection{
+    flex-direction: column;
+}
+.tenthsection .left img{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.tenthsection .right{
+    margin: 30px 50px;
+}
+
+/* Section 11 Styling */
+.eleventhsection{
+    flex-direction: column;
+}
+.eleventhsection .left{
+    margin: 30px 30px 70px 40px;
+}
+
+.eleventhsection .right img{
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/* Section 12 Styling */
+.twelvethsection{
+    height: 300px;
+}
+
+.twelvethsection .twelvethsection-container{
+    padding: 5px;
+}
+
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(1){
+    font-size: 12px;
+}
+.twelvethsection .twelvethsection-container .divbox1 p:nth-child(2){
+    font-size: 8px;
+    margin: 15px 5px 5px 0px;
+    width: 100px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form{
+    margin: 0px, 5px 5px 0px;
+    padding-right: 0px;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input{
+    padding: 5px 0px;
+    font-size: 12px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.twelvethsection .twelvethsection-container .divbox2 form input::placeholder {
+    font-size: 8px;
+}
+
+.twelvethsection .twelvethsection-container .divbox3 button{
+    padding: 5px 5px;
+    margin: 10px 0px;
+    font-size: 8px;
+}
+/* last section styling */
+.last-section{
+    height: 300px;
+    padding-top: 30px;
+}
+
+.last-section .logo{
+    margin-left: 40px;
+    margin-bottom: 180px;
+    margin-right: 10px;
+}
+.last-section .logo a img{
+    width: 20px; 
+    height: 20px;
+}
+
+.last-section .link{
+    margin: 0px 8px;
+}
+
+.last-section .link li{
+    color: white;
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 8px;
+}
+.last-section .resources{
+    margin: 0px 10px 30px 0px;
+}
+.last-section .payment{
+    margin: 0px 50px 20px 10px;
+}
+.last-section .payment p{
+    font-size: 8px;
+}
+.last-section .payment img{
+    width: 40px;
+    height: 20px;
+}
+.last-section p{
+    font-size: 12px;
+}
+
+/* Footer Styling */
+footer{
+    height: 100px;
+}
+.last-section .logo .crappo{
+    font-size: 10px;
+    margin-bottom: 80px;
+}
+.last-section .logo img{
+    margin-bottom: 80px;
+}
+footer .reserved{
+    font-size: 8px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+footer .socials{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+footer .socials a{
+    padding: 0px 5px;
+}
+
+footer .socials a img{
+    width: 10px;
+    height: 10px;
+}
+footer .socials a img:hover{
+transform: scale(1.3);
+transition: .3s;
+}
 }
