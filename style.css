@@ -68,7 +68,8 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #0D0D2B;
-    color: white;  
+    color: white; 
+    padding-bottom: 70px; 
 }
 
 .firstsection .right{
@@ -214,6 +215,7 @@ header{
     justify-content: center;
     background-color: #0D0D2B;
     color: white;
+    padding-top: 30px;
 }
 
 .thirdsection .left img{
@@ -531,7 +533,7 @@ header{
     justify-content: center;
     color: white;
     background-color: #2B076E;
-    height: 200px;
+    height: 300px;
 }
 
 .eightsection p{
@@ -548,6 +550,7 @@ header{
     justify-content: center;
     color: white;
     background-color: #2B076E;
+    padding: 50px 0px;
 }
 
 .ninthsection .left{
@@ -1427,6 +1430,7 @@ transition: .3s;
 .firstsection .right .rightinside button{
     padding: 8px 8px;
     font-size: 12px;
+    margin-bottom: 50px;
 }
 
 .firstsection .left img{
@@ -1656,7 +1660,7 @@ transition: .3s;
 
 /* Section 9 Styling */
 .ninthsection .left{
-    margin: 20px;
+    margin: 50px 20px;
 }
 
 .ninthsection .left p:nth-child(1){
@@ -1676,7 +1680,6 @@ transition: .3s;
 }
 .ninthsection .right img{
     width: 200px;
-    margin-right: 100px;
     margin-right: 50px;
 }
 
@@ -1869,8 +1872,8 @@ transition: .3s;
         flex-direction: column;
     }
     .thirdsection .left img{
-        width: 300px;
-        margin: 30px 50px;
+        width: 250px;
+        margin: 30px 30px;
     }
     
     .thirdsection .right{
@@ -1925,7 +1928,7 @@ transition: .3s;
 .fifth-down .inside-div p:nth-child(1){
     font-size: 14px;
     letter-spacing: 1px;
-    margin: 10px 20px;
+    margin: 10px 10px;
 
 }
 
@@ -2134,7 +2137,7 @@ transition: .3s;
 }
 
 .last-section .logo{
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 180px;
     margin-right: 10px;
 }
