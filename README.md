@@ -2,7 +2,7 @@
 - This site was inspired by it's prototype design on figma which I used codes to program into a full-fleshed site using ``HTML`` and ``CSS`` markup languages. 
     
     - Live Link :: [Go Live](https://iamnaeto.github.io/crappo/)
-    - Figmna Design :: [Visit It's Figma Design](https://www.figma.com/file/D1bOJeBdA3dtwJ3WsnKVWe/CRAPPO---Free-Cryptocurrency-Website-(Community)-(Copy)?node-id=1%3A55)
+    - Figma Design :: [Visit Figma Design](https://www.figma.com/file/D1bOJeBdA3dtwJ3WsnKVWe/CRAPPO---Free-Cryptocurrency-Website-(Community)-(Copy)?node-id=1%3A55)
     
 
 ## Author: Charles Obimnaeto Egesionu ##
