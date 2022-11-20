@@ -452,7 +452,7 @@ header{
     border-radius: 30px;
     border: 0px solid #3671E9;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 70px;
     font-size: 18px;
     vertical-align: middle; 
     display: none; 
@@ -508,7 +508,7 @@ header{
     border: 0px solid #3671E9;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 80px;
+    margin-left: 70px;
     display: none;
 }
 
@@ -581,7 +581,7 @@ header{
     border: 0px solid #3671E9;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 80px;
+    margin-left: 70px;
     display: none;
 }
 
