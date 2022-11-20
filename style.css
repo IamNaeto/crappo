@@ -298,7 +298,7 @@ header{
     background-color: #FFFFFF;
     border-radius: 20px;
     margin: 30px 0px;
-    box-shadow: 2px 2px 1px 1px #F7F3FB;
+    box-shadow: 0 0 15px 0px rgb(0,0,0,0.2);
 }
 
 .fifthsection .fifth-up{
@@ -399,6 +399,20 @@ header{
 }
 
 .section-container1{
+    background-color: #fdfdfd;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.2);
+    color: #000;
+    border-radius: 10px;
+    padding: 25px;
+    width: 370px;
+    height: 370px;
+    margin: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 1s;
+}
+.section-container1:hover{
     background-color: #2B076E;
     color: #FFFFFF;
     border-radius: 10px;
@@ -438,35 +452,78 @@ header{
     border-radius: 30px;
     border: 0px solid #3671E9;
     cursor: pointer;
-    margin: 10px;
+    margin-left: 80px;
     font-size: 18px;
+    vertical-align: middle; 
+    display: none; 
 }
 
 .section-container .section-container1 button img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     display: inline-block;
 }
-
-.section-container .section-container1 button:hover{
-    background-color: transparent;
-    border: 1px solid #3671E9;
+.section-container .section-container1:hover button{
+    display: block;
+}
+.section-container .section-container1:hover .big-btn img:nth-child(2){
+    display: none;
 }
 
+
 .section-container2{
-    background-color: #FFFFFF;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.2);
     color: black;
     border-radius: 10px;
     padding: 25px;
-    margin: 0px 20px;
+    margin: 50px 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 370px;
     height: 370px;
+    transition: 1s;
 }
 
+.section-container2:hover{
+    background-color: #2B076E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    width: 370px;
+    height: 370px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-container .section-container2 button{
+    padding: 5px 10px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 30px;
+    border: 0px solid #3671E9;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 80px;
+    display: none;
+}
+
+.section-container .section-container2 button img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+    .section-container .section-container2:hover button{
+        display: block;
+    }
+    .section-container .section-container2:hover .big-btn img:nth-child(2){
+        display: none;
+    }
 .section-container .section-container2 img{
     width: 45px;
     height: 45px;
@@ -492,16 +549,54 @@ header{
 
 .section-container3{
     background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.2);
     color: black;
     border-radius: 10px;
     padding: 25px;
-    margin: 0px 20px;
+    margin: 50px 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 370px;
     height: 370px;
+    transition: 1s;
 }
+.section-container3:hover{
+    background-color: #2B076E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    width: 370px;
+    height: 370px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-container .section-container3 button{
+    padding: 5px 10px;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 30px;
+    border: 0px solid #3671E9;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 80px;
+    display: none;
+}
+
+.section-container .section-container3 button img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+    .section-container .section-container3:hover button{
+        display: block;
+    }
+    .section-container .section-container3:hover .big-btn img:nth-child(2){
+        display: none;
+    }
 
 .section-container .section-container3 img{
     width: 45px;
@@ -533,7 +628,7 @@ header{
     justify-content: center;
     color: white;
     background-color: #2B076E;
-    height: 300px;
+    height: 200px;
 }
 
 .eightsection p{
@@ -550,7 +645,7 @@ header{
     justify-content: center;
     color: white;
     background-color: #2B076E;
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 .ninthsection .left{
@@ -1043,8 +1138,8 @@ transition: .3s;
 
 .section-container1{
     padding: 15px;
-    width: 420px;
-    margin: 0px 10px;
+    width: 370px;
+    margin: 50px 10px;
 }
 .section-container .section-container1 img{
     width: 40px;
@@ -1077,8 +1172,8 @@ transition: .3s;
 
 .section-container2{
     padding: 15px;
-    width: 420px;
-    margin: 0px 10px;
+    width: 370px;
+    margin: 50px 10px;
 }
 
 .section-container .section-container2 img{
@@ -1103,8 +1198,8 @@ transition: .3s;
 
 .section-container3{
     padding: 15px;
-    width: 420px;
-    margin: 0px 10px;
+    width: 370px;
+    margin: 50px 10px;
 }
 
 .section-container .section-container3 img{
@@ -1353,6 +1448,83 @@ transition: .3s;
         cursor: pointer;
     }
 
+    /* Section 7 Styling */
+    .section-container1{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container1:hover{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container .section-container1 img{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+    .section-container .section-container1 button{
+        padding: 10px 20px;
+        background-color: #3671E9;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .section-container .section-container1 button img{
+        width: 10px;
+        height: 10px;
+    }
+    .section-container2{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container2:hover{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container .section-container2 button{
+        padding: 10px 20px;
+        background-color: #3671E9;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .section-container .section-container2 button img{
+        width: 10px;
+        height: 10px;
+    }
+    .section-container3{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container3:hover{
+        padding: 5px;
+        width: 400px;
+        height: 300px;
+        margin: 0px 10px;
+    }
+    .section-container .section-container3 img{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+    .section-container .section-container3 button{
+        padding: 10px 20px;
+        background-color: #3671E9;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .section-container .section-container3 button img{
+        width: 10px;
+        height: 10px;
+    }
     /* Section 9 Styling */
 .ninthsection .left p:nth-child(2){
     width: 200px;
@@ -1567,6 +1739,12 @@ transition: .3s;
     height: 200px;
     margin: 0px 10px;
 }
+.section-container1:hover{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
 .section-container .section-container1 img{
     width: 20px;
     height: 20px;
@@ -1588,7 +1766,8 @@ transition: .3s;
 .section-container .section-container1 button{
     padding: 5px 5px;
     background-color: #3671E9;
-    font-size: 5px;
+    font-size: 10px;
+    margin-left: 50px;
 }
 
 .section-container .section-container1 button img{
@@ -1602,7 +1781,12 @@ transition: .3s;
     height: 200px;
     margin: 0px 10px;
 }
-
+.section-container2:hover{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
 .section-container .section-container2 img{
     width: 20px;
     height: 20px;
@@ -1622,6 +1806,17 @@ transition: .3s;
     font-size: 10px;
     margin-bottom: 20px;
 }
+.section-container .section-container2 button{
+    padding: 5px 5px;
+    background-color: #3671E9;
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.section-container .section-container2 button img{
+    width: 10px;
+    height: 10px;
+}
 
 .section-container3{
     padding: 5px;
@@ -1629,7 +1824,12 @@ transition: .3s;
     height: 200px;
     margin: 0px 10px;
 }
-
+.section-container3:hover{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 10px;
+}
 .section-container .section-container3 img{
     width: 20px;
     height: 20px;
@@ -1648,6 +1848,17 @@ transition: .3s;
 .section-container .section-container3 .ltc2{
     font-size: 10px;
     margin-bottom: 20px;
+}
+.section-container .section-container3 button{
+    padding: 5px 5px;
+    background-color: #3671E9;
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.section-container .section-container3 button img{
+    width: 10px;
+    height: 10px;
 }
 
 
@@ -1702,9 +1913,9 @@ transition: .3s;
 }
 
 .tenthsection button{
-    padding: 10px 10px;
+    padding: 15px 15px;
     margin: 15px 0px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Section 11 Styling */
@@ -1725,7 +1936,7 @@ transition: .3s;
 .eleventhsection .left button{
     padding: 15px 15px;
     margin: 15px 0px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .eleventhsection .right img{
@@ -1961,7 +2172,14 @@ transition: .3s;
     padding: 15px;
     width: 250px;
     height: 250px;
-    margin: 0px 10px;
+    margin: 20px 10px;
+}
+.section-container1:hover{
+    background-color: #2B076E;
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px;
 }
 .section-container .section-container1 img{
     width: 30px;
@@ -1982,9 +2200,10 @@ transition: .3s;
     margin-bottom: 20px;
 }
 .section-container .section-container1 button{
-    padding: 10px 10px;
+    padding: 8px 8px;
     background-color: #3671E9;
     font-size: 12px;
+    margin-left: 50px;
 }
 
 .section-container .section-container1 button img{
@@ -1996,9 +2215,21 @@ transition: .3s;
     padding: 15px;
     width: 250px;
     height: 250px;
-    margin: 30px 10px;
+    margin: 20px 10px;
 }
-
+.section-container2:hover{
+    background-color: #2B076E;
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px;
+}
+.section-container .section-container2 button{
+    padding: 8px 8px;
+    background-color: #3671E9;
+    font-size: 12px;
+    margin-left: 50px;
+}
 .section-container .section-container2 img{
     width: 30px;
     height: 30px;
@@ -2023,7 +2254,20 @@ transition: .3s;
     padding: 15px;
     width: 250px;
     height: 250px;
-    margin: 0px 10px;
+    margin: 20px 10px;
+}
+.section-container3:hover{
+    background-color: #2B076E;
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px;
+}
+.section-container .section-container3 button{
+    padding: 8px 8px;
+    background-color: #3671E9;
+    font-size: 12px;
+    margin-left: 50px;
 }
 
 .section-container .section-container3 img{
